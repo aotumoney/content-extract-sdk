@@ -1,0 +1,22 @@
+{
+  "name": "content-extract-sdk",
+  "version": "0.1.0",
+  "description": "Client for the Content Extraction API — URL to clean Markdown/JSON for LLM pipelines",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "keywords": [
+    "markdown",
+    "llm",
+    "rag",
+    "scraping",
+    "extraction",
+    "api"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

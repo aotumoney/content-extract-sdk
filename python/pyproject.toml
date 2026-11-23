@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "extract-api"
+version = "0.1.0"
+description = "Client for the Content Extraction API — URL to clean Markdown/JSON for LLM pipelines"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["markdown", "llm", "rag", "scraping", "extraction"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Homepage = "https://devicecheck.cc/extract"
